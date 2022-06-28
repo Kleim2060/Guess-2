@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="record">Рекорд: <span class="counter_record">0</span></div>
+    <div class="wrapper">
+    <div class="header">
+        <h2>Игра:</h2>
+        <h1>Угадай число</h1>
+        <div class="buttons">
+            <button class="btn_start">Играть</button>
+        </div>
+    </div>
+    <div class="section__know">
+        <h2>Ты знаешь как играть?</h2>
+        <button class="btn_true">Я знаю как играть</button>
+        <button class="btn_false">Я не знаю как играть</button>
+        <p class="i_dont_know"> </p>
+    </div>
+
+    <div class="section__level">
+        <h1>Выбери уровень</h1>
+            <button class="level super--easy">Супер легкий</button>
+            <button class="level easy">Легкий</button>
+            <button class="level normal">Средний</button>
+            <button class="level hurd">Сложный</button>
+            <button class="level impossible">Невозможный</button>
+    </div>
+    <div class="game">
+        <span>Количество попыток:<div class="counter_try"></div> </span>
+        <h2>Напиши число <div class="text_level"></div></h2>
+        <input class="input" type="text">
+        <button class="btn_send">Отправить</button>
+        <div class="plus_or_minus">Hi</div>
+        <button class="reload">Eще раз</div>
+    </div>
+    </div>
+</div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
